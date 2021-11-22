@@ -352,7 +352,7 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .nav-li:last-child {
-  padding-right: 0px;
+  margin-right: 0px;
 }
 .nav-btn {
   font-family: inherit;

@@ -91,7 +91,13 @@ img {
 }
 .header-list2 {
   display: flex;
-  margin-left: 231px;
+  margin-left: 178px;
+}
+.header-icon {
+  margin-right: 10px;
+}
+.header-icon:hover {
+  color: #2196f3;
 }
 .header-li {
   margin-right: 50px;
@@ -191,6 +197,14 @@ img {
 .desctiption-div {
   display: flex;
 }
+.desctiption-div-icon {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+.description-icon {
+}
 .description-list {
   display: flex;
 }
@@ -259,6 +273,38 @@ img {
 .team-list {
   display: flex;
 }
+.team-link-icon {
+  display: flex;
+}
+.team-icon-list {
+  display: flex;
+  justify-content: center;
+}
+.team-icon-li {
+  width: 44px;
+  height: 44px;
+}
+.team-icon-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+}
+.team-icon-link:focus,
+.team-icon-link:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.team-icon-li + .team-icon-li {
+  margin-left: 10px;
+}
+.team-icon {
+  fill: currentColor;
+}
 .team-li {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -293,13 +339,64 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  margin-bottom: 16px;
 }
 
+.clients {
+  background-color: #ffffff;
+}
+.clients-div {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+.clients-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.clients-li {
+}
+.clients-li + .clients-li {
+  margin-left: 30px;
+}
+.clients-icon {
+  margin: 16px 32px;
+  fill: currentColor;
+}
+.clients-icon-link:hover,
+.clients-icon-link:focus {
+  border-color: #2196f3;
+  color: #2196f3;
+}
+
+.clients-h2 {
+  padding-bottom: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.clients-link {
+}
 /* Футер */
 .footer {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  height: 252px;
 }
 
 .footer-address {
@@ -333,6 +430,52 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+}
+.footer-icon-list {
+  display: flex;
+}
+.footer-icon-li {
+  width: 44px;
+  height: 44px;
+}
+.footer-icon-li + .footer-icon-li {
+  margin-left: 10px;
+}
+.footer-icon {
+}
+.footer-h3 {
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-logo-div {
+  display: flex;
+}
+.footer-icon-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.footer-icon-link:focus,
+.footer-icon-link:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.footer-icon-div {
+  margin-top: -124px;
+  padding-left: 301px;
+  fill: currentColor;
 }
 
 /* PORTFOLIO-HTML */

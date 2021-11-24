@@ -118,6 +118,7 @@ img {
   font-style: normal;
   font-size: 14px;
 }
+.header-link:focus,
 .header-link:hover {
   color: #2196f3;
 }
@@ -129,6 +130,7 @@ img {
   font-size: 14px;
   font-style: normal;
 }
+.header-link2:focus,
 .header-link2:hover {
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -149,7 +151,7 @@ img {
     ),
     url(../images/background.jpg);
   background-size: cover;
-  width: 1600px;
+  max-width: 1600px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -190,7 +192,7 @@ img {
 
 /* Гарантии */
 .description {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -233,7 +235,7 @@ img {
 /* Чем мы занимаемся */
 .photo {
   padding-bottom: 94px;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 .photo-h2 {
   font-weight: 700;
@@ -344,10 +346,10 @@ img {
 
 .clients {
   background-color: #ffffff;
-}
-.clients-div {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.clients-div {
 }
 .clients-list {
   display: flex;
@@ -380,7 +382,7 @@ img {
 }
 
 .clients-h2 {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -491,6 +493,7 @@ img {
   display: flex;
   justify-content: center;
 }
+.nav-li:focus,
 .nav-li:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -512,6 +515,7 @@ img {
   /* height: 38px; */
   padding: 6px 22px;
 }
+.nav-btn:focus,
 .nav-btn:hover {
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -539,6 +543,7 @@ img {
   width: 370px;
   cursor: pointer;
 }
+.maincontant-li:focus,
 .maincontant-li:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);

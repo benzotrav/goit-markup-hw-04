@@ -365,6 +365,8 @@ img {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  width: 100%;
+  height: 100%;
 }
 .clients-li {
 }
@@ -390,8 +392,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-}
-.clients-link {
 }
 /* Футер */
 .footer {
